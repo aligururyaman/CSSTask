@@ -1,0 +1,72 @@
+body {
+    background-color: #F5F3C1;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CE5959;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #89375F;
+  }
+  
+  .active {
+    background-color: #BACDDB;
+  }
+  
+  .baslik {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  .info, .first1 {
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .container1 {
+    width: auto;
+    display: inline-block;
+    border: #553c9a;
+    vertical-align: top;
+    margin-left: 50px;
+    }
+  .container2 {
+        width: 49%;
+        display: inline-block;
+        margin-left: 30px;
+    }
+  .first2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+  }
+  .gozlukcontainer {
+    margin-left: 23%;
+  }
+  .contackcontainer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+  }
+  .title {
+    font-size: x-large;
+  }
